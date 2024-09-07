@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booksky.css">
+</head>
+<body>
+    
+<div class="navbar">
+    <h1 class="myb">myBook</h1>
+</div>
+<div class="contain">
+<div class="bookcontain">
+    <h2>Wings Of Fire</h2>
+    <h4>APJ Kalam Sir</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facere sequi porro pariatur autem quam, esse, eaque temporibus, ad qui error ipsa placeat consequatur molestiae tempore? Recusandae eos cum quo!</p>
+    <button onclick="dlt(event)">remove</button>
+</div>
+</div>
+
+<div class="poverlay"></div>
+<div class="popupbox">
+    <h2>Add Book</h2>
+    <form>
+    <input type="text" placeholder="Add Title" id="btitle">
+    <input type="text" placeholder="Add Author" id="bauthor">
+        <textarea placeholder="Short Note" id="bnote"></textarea>
+    <button class="addd">Add</button>
+    <button id="cancel">Cancel</button>
+</form>
+    </div>
+
+<button id="add-button" onclick="addfunc()">+</button>
+    <script src="booksky.js"></script>
+</body>
+</html>

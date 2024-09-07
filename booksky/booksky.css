@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.myb{
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: cyan;
+}
+
+.contain{
+    padding: 20px;
+}
+
+.bookcontain{
+    width: 20%;
+    padding: 30px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+    margin: 25px;
+    vertical-align: top;
+    display: inline-block;
+}
+.contain h2{
+    margin: 5px;
+    font-size: 30px;
+    color:   cyan;
+}
+
+.contain h4{
+    margin:3px ;
+    color: rgb(218, 47, 161);
+}
+
+.contain button{
+    background-color: rgb(83, 83, 240);
+    margin: 8px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;color: antiquewhite;
+}
+
+#add-button{
+    padding: 20px 20px;
+    color: black;
+    border: none;
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: cyan;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.poverlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.6;
+    z-index: 1;
+    display: none;
+}
+.popupbox{
+    width: 40%;
+    background-color: cyan;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    padding: 40px;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+}
+.popupbox h2{
+    font-size: 30px;
+    padding: 15px 0px;
+}
+.popupbox input{
+    background: transparent;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.popupbox textarea{
+    background: transparent;
+    border: solid black 2px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.popupbox button{
+    padding:5px 8px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.popupbox textarea::placeholder{
+    color: black;
+}
+
+.popupbox input::placeholder{
+    color: black;
+}
+.popupbox input:focus{
+    outline: none;
+}
+.popupbox textarea:focus{
+    outline: none;
+}
